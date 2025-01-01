@@ -1,0 +1,14 @@
+This error typically occurs when there's a mismatch between the AndroidManifest.xml file's configuration and the Expo Go app's capabilities or when building a standalone app.  It often manifests as a blank screen or a crash immediately after launch.
+
+Example (Illustrative):
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <application
+        ... >
+        <!-- Missing required activity or intent filter -->
+    </application>
+</manifest>
+```
